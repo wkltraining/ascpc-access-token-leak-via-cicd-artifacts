@@ -1,12 +1,18 @@
-{
-  "name": "nodejs-app",
-  "version": "1.0.0",
-  "description": "Simple Node.js app",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2"
-  }
-}
+{ 
+  "name": "example-project", 
+  "version": "1.0.0", 
+  "description": "Example Node.js project", 
+  "main": "server.js", 
+  "scripts": { 
+    "build": "echo 'Building the project...'", 
+    "test": "echo 'Testing the project...'"   
+  }, 
+  "dependencies": { 
+    "express": "^4.17.1" 
+  }, 
+  "devDependencies": { 
+    "jest": "^27.0.6" 
+  }, 
+  "author": "Your Name", 
+  "license": "MIT" 
+} 
