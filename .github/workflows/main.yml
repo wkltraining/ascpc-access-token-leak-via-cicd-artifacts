@@ -31,7 +31,6 @@ jobs:
       # # Download Express package from Azure Blob
       # - name: Download Express package
       #   run: |
-      #     env
       #     curl -L "$EXPRESS_PACKAGE_URL" -o express-5.1.0.zip
 
       # # Extract and install Express
